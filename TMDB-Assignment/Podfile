@@ -1,0 +1,10 @@
+# Podfile
+use_frameworks!
+
+target 'TMDB-Assignment' do
+    pod 'RxSwift', '6.5.0'
+    pod 'RxCocoa', '6.5.0'
+    pod 'SwiftLint'
+    pod 'Kingfisher', '~> 7.0'
+    pod 'SwiftUIIntrospect'
+end

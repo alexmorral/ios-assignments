@@ -1,0 +1,9 @@
+sources:
+  - ../marvel-swiftui
+templates:
+  - Templates/AutoMockable.stencil
+output:
+  ../marvel-swiftuiTests/Mocks/AutoMockable.generated.swift
+args:
+  autoMockableTestableImports: ["marvel_swiftui"]
+  autoMockableImports: ["CoreData"]
